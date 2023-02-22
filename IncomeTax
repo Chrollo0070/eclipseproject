@@ -2,12 +2,12 @@ package elistan122;
 
 public class IncomeTax {
 	
+	String pan_num;
 	double gross_income;
 	double net_Income;
 	double std_deductions;
 	double tax;
 	double tax_percent;
-	String pan_num;
 	
 	IncomeTax(float gross_income)
 	{
